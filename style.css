@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
+html {
+    height: 100%;
+}
+body {
+    background-image: url(img/moon-phases.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    font-family: 'Gotu', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(40, 40, 40);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(58, 58, 58);
+}
+.navbar-light .navbar-brand {
+    color: rgba(9, 9, 9, 0.9);
+}
+.bg-light {
+    background-color: #fc9f9d!important;
+}
+#content {
+    padding-top: 30%;
+}
+h1 {
+    font-size: 5rem;
+    text-shadow: 0px 4px 8px rgba(171, 171, 171, .5),
+                0px 4px 8px rgba(106, 101, 91, 0.851),
+                0px 4px 8px rgba(91, 72, 36, 0.851);
+                font-weight: 700;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid rgba(167, 167, 167, 0.701);
+    width: 70%;
+}
